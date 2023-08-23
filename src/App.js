@@ -27,7 +27,14 @@ function App() {
       } */}
 
       {/* Если нужна анимация */}
-      <Modal open={open} setOpen={setOpen}></Modal>
+      <Modal open={open} setOpen={setOpen}>
+        <img
+          alt="wooou"
+          src="https://media2.giphy.com/media/xT0xeJpnrWC4XWblEk/giphy.gif"
+        />
+        <button>123123</button>
+        <h3>hello world</h3>
+      </Modal>
     </div>
   );
 }
